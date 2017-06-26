@@ -1,0 +1,11 @@
+/Users/tkntkd/.rbenv/versions/2.2.2/bin/ruby -r ./siteconf20170627-67293-16aa4sr.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20170627-67293-1bbeyqt/bindex
