@@ -1,0 +1,2 @@
+class PersonalHodildaySetting < ApplicationRecord
+end
